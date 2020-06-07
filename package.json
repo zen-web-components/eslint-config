@@ -1,6 +1,6 @@
 {
   "name": "@zen-web-components/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "ESLint config for zen-web-components",
   "main": "index.js",
   "scripts": {
