@@ -1,10 +1,10 @@
 module.exports = {
   env: {
     mocha: true,
-    browser: true
+    browser: true,
   },
   parserOptions: {
-    sourceType: 'module'
+    sourceType: 'module',
   },
   extends: ['standard'],
   plugins: ['standard', 'promise'],
@@ -12,7 +12,7 @@ module.exports = {
     'new-cap': [
       'warn',
       {
-        capIsNew: true
+        capIsNew: true,
       }
     ],
     'camelcase': 0,
@@ -22,20 +22,20 @@ module.exports = {
       'error',
       'always',
       {
-        js: 'never'
+        js: 'never',
       }
     ],
     'import/newline-after-import': ['error'],
     'no-confusing-arrow': [
       'error',
       {
-        allowParens: true
+        allowParens: true,
       }
     ],
     'no-console': [
       'error',
       {
-        allow: ['info', 'warn', 'error']
+        allow: ['info', 'warn', 'error'],
       }
     ],
     'no-implicit-coercion': ['error'],
@@ -48,7 +48,7 @@ module.exports = {
         varsIgnorePattern: '_',
         argsIgnorePattern: '_',
         caughtErrorsIgnorePattern: '_',
-        ignoreRestSiblings: true
+        ignoreRestSiblings: true,
       }
     ],
     'no-var': ['error'],
@@ -58,5 +58,5 @@ module.exports = {
     'require-await': ['error'],
     'semi': [2, 'never'],
     'space-before-function-paren': ['error', 'always'],
-  }
+  },
 }
