@@ -16,6 +16,9 @@
     "url": "https://github.com/zen-web-components/eslint-config/issues"
   },
   "homepage": "https://github.com/zen-web-components/eslint-config#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-html": "^5.0.3",
