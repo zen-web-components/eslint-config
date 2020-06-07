@@ -1,0 +1,31 @@
+{
+  "name": "@zen-web-components/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint config for zen-web-components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zen-web-components/eslint-config.git"
+  },
+  "author": "Travis J True",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zen-web-components/eslint-config/issues"
+  },
+  "homepage": "https://github.com/zen-web-components/eslint-config#readme",
+  "dependencies": {
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-import": "^2.17.1",
+    "eslint-plugin-no-only-tests": "^2.3.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
