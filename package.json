@@ -1,7 +1,7 @@
 {
   "name": "@zen-web-components/eslint-config",
   "version": "1.0.3",
-  "license": "ISC",
+  "license": "MIT",
   "description": "ESLint config for zen-web-components",
   "author": "Travis J True <travis.true08@gmail.com> (http://www.travistrue.io)",
   "main": "index.js",
